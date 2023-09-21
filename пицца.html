@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: #FFFFFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div{
+            background-image: url(https://i.pinimg.com/originals/8e/01/11/8e0111077bc105b14e7284cee7d2abe3.jpg);
+            background-repeat: no-repeat;
+            height: 250px;
+            opacity: 85%;
+        }
+        div h1{
+            text-align: center;
+            padding: 4em;
+            font-weight: 200;
+        }
+        .wrapper{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        table{
+            margin: 0 auto;
+            font-size: 16.5pt;
+        }
+        table, th, td{
+            border: 1px solid rgb(173, 173, 173);
+            border-collapse: collapse;
+        }
+        tr{
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        caption{
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <div>
+            <h1 text-align="center"></h1>
+        </div>
+        
+        <table>
+            <caption>ПРАЙС-ЛИСТ</caption>
+            <tr class="a1">
+                <th>Название пиццы</th>
+                <th colspan="2">Состав</th>
+                <th>Цена</th>
+            </tr>
+            <tr class="a2">
+                <td>Сырная</td>
+                <td colspan="2">Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</td>
+                <td>от 289р.</td>
+            </tr>
+            <tr class="a3">
+                <td>Ветчина и сыр</td>
+                <td colspan="2">Ветчина, моцарелла, фирменный соус альфредо
+                </td>
+                <td>от 369р.</td>
+            </tr>
+            <tr class="a4">
+                <td>Карбонара</td>
+                <td colspan="2">Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, фирменный соус альфредо, итальянские травы</td>
+                <td>от 469р.</td>
+            </tr>
+            <tr class="a5">
+                <td>Песто</td>
+                <td colspan="2"> Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, фирменный соус альфредо
+                </td>
+                <td>от 469р.</td>
+            <tr class="a6">
+                <td>Мясная </td>
+                <td colspan="2">Цыпленок, ветчина, пикантная пепперони, острая чоризо, моцарелла, фирменный томатный соус</td>
+                <td>от 469р.</td>
+            <tr class="a7">
+                <td>Додо</td>
+                <td colspan="2">Бекон, митболы, пикантная пепперони, моцарелла, томаты, шампиньоны, сладкий перец, красный лук, чеснок, фирменный томатный соус</td>
+                <td>от 516р.</td>
+        </table>
+        <h3>После того как вы определились с вашим заказом заполните бланк ниже, после чего с вами свяжется наш оператор для подтверждения заказа</h3>
+        <form action="">
+            <fieldset>
+                <legend>Ваши данные</legend>
+                <input type="text" placeholder="ФИО" required> <br><br>
+                <input type="text" placeholder="+79689996565" required> <br><br>
+                <input type="text" placeholder="Адрес" required> <br><br>
+                <input type="button" name="send" value="отправть">
+                <input type="reset" name="res" value="очистить форму"> <br><br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
